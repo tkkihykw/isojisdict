@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>人間工学ＪＩＳ対訳辞書一覧表</title>
+	<link rel="shortcut icon" type="image/png" href="/media/images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="datatables.min.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap-3.3.6/css/bootstrap.min.css">
+	<script type="text/javascript" language="javascript" src="datatables.min.js">
+	<script type="text/javascript" language="javascript" src="jQuery-1.12.3/jquery-1.12.3.min.js">
+	</script>
+	<script type="text/javascript" class="init">
+		$(document).ready(function() {
+		$('#dict').DataTable( {
+			} );
+		} );
+	</script>
+</head>
+<body class="">
+	<div class="container">
+		<div class="tab">
+			<ul class="nav nav-tabs">
+				<li role="presentation"><a href="index.html">TOP</a></li>
+				<li role="presentation" class="active"><a href="#">掲載JIS一覧</a></li>
+				<li role="presentation"><a href="dict.html">英日対訳</a></li>
+				<li role="presentation"><a href="dict_nopage.html">英日対訳（ページングなし）</a></li>
+			</ul>
+		</div>
+		<div class="fw-body">
+			<div class="content">
+				<h1 class="page_title">この辞書に掲載しているJIS</h1>
+				<div class="info">
+					<p></p>
+					<p>*1：JISは制定されていない。日本人間工学会において翻訳した際の用語を掲載している。</p>
+				</div>
+				<table id="dict" class="table table-striped table-bordered" cellspacing="0" width="100%">
+					<thead>
+						<tr>
+							<th>JIS</th>     
+							<th>JIS制定年</th>
+							<th>辞書掲載日</th>
+							<th>対応ISO</th>
+							<th>ISO発行年</th>
+						</tr>
+					</thead>
+					<!--
+					<tfoot>
+						<tr>
+							<th>英語</th>
+							<th>用語</th>
+							<th>JIS規格番号</th>
+							<th>JIS制定年</th>
+							<th>ISO規格番号</th>
+							<th>項目番号</th>
+						</tr>
+					</tfoot>
+					-->
+					<tbody>
+						<tr><td>JIS Z 8503-3</td><td>-</td><td>2001/2/2</td><td>ISO 11064-3</td><td>1999</td></tr>
+						<tr><td>*1</td><td>-</td><td>2001/2/2</td><td>ISO 6385</td><td>1981</td></tr>
+						<tr><td>JIS Z 8528-1</td><td>-</td><td>2001/1/22</td><td>ISO 13406-1</td><td>1999</td></tr>
+						<tr><td>JIS Z 8515</td><td>-</td><td>2001/1/19</td><td>ISO 9241-5</td><td>1998</td></tr>
+						<tr><td>JIS Z 8500</td><td>2001</td><td>2001/1/19</td><td>ISO 7250</td><td>1996</td></tr>
+						<tr><td>JIS Z 8514</td><td>2000</td><td>2000/3/7</td><td>ISO 9241-4</td><td>1998</td></tr>
+						<tr><td>JIS Z 8530</td><td>2000</td><td>2000/3/7</td><td>ISO 13407</td><td>1999</td></tr>
+						<tr><td>JIS Z 8517</td><td>1999</td><td>1999</td><td>ISO 9241-7</td><td>1998</td></tr>
+						<tr><td>JIS Z 8525</td><td>2000</td><td>2000/3/7</td><td>ISO 9241-15</td><td>1997</td></tr>
+						<tr><td>JIS Z 8503</td><td>1998</td><td>2001/1/19</td><td>ISO 10075-2</td><td>1996</td></tr>
+						<tr><td>JIS Z 8518</td><td>1998</td><td>1999</td><td>ISO 9241-8</td><td>1997</td></tr>
+						<tr><td>JIS Z 8521</td><td>1999</td><td>1999</td><td>ISO 9241-11</td><td>1998</td></tr>
+						<tr><td>JIS Z 8520</td><td>1999</td><td>1999</td><td>ISO 9241-10</td><td>1996</td></tr>
+						<tr><td>JIS Z 8512</td><td>1995</td><td>1999</td><td>ISO 9241-2</td><td>1992</td></tr>
+						<tr><td>JIS Z 8500</td><td>1994</td><td>1999</td><td>ISO 7250</td><td>?</td></tr>
+						<tr><td>JIS Z 8502</td><td>1994</td><td>1999</td><td>ISO 10075</td><td>1991</td></tr>
+						<tr><td>JIS Z 8513</td><td>1994</td><td>1999</td><td>ISO 9241-3</td><td>1992</td></tr>
+						<tr><td>JIS Z 8511</td><td>1999</td><td>1999</td><td>ISO 9241-1</td><td>1997</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
